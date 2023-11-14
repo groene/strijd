@@ -1,7 +1,7 @@
 from collections import Counter
 
 import numpy as np
-from tqdm.autonotebook import tqdm
+from tqdm.auto import tqdm
 
 from scipy.stats import chi2_contingency
 from scipy.stats.contingency import expected_freq
